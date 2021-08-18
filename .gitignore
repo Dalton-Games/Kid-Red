@@ -163,7 +163,8 @@ Temporary Items
 *.VC.opendb
 
 # No project plugins
-Plugins
+# SHANE EDIT: disabling this ignore for now because it assumes an engine deployment scenario
+#Plugins
 
 # Binary Files
 **/Binaries
