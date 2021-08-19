@@ -186,5 +186,8 @@
 			"Name": "SpeedTreeImporter",
 			"Enabled": false
 		}
+	],
+	"TargetPlatforms": [
+		"Windows"
 	]
 }
