@@ -1,4 +1,4 @@
-// Copyright 2020 Ali El Saleh. All Rights Reserved.
+// Copyright 2021 Kid Red. All Rights Reserved.
 
 #include "KidRedUI.h"
 

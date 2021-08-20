@@ -27,8 +27,9 @@ public class KidRedCore : ModuleRules
 		PublicDependencyModuleNames.Add("Engine");
 		PublicDependencyModuleNames.Add("InputCore");
 		PublicDependencyModuleNames.Add("GameplayCameras");
+		PublicDependencyModuleNames.Add("DataRegistry");
 		PublicDependencyModuleNames.Add("HelperFunctionLib");
-		PublicDependencyModuleNames.Add("KidRedWeapons");
+		PublicDependencyModuleNames.Add("KidRedItems");
 		PublicDependencyModuleNames.Add("KidRedUI");
 	}
 }

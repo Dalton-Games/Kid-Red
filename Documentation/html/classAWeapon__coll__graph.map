@@ -1,0 +1,7 @@
+<map id="AWeapon" name="AWeapon">
+<area shape="rect" id="node1" title="Base class for all weapon items." alt="" coords="126,432,319,553"/>
+<area shape="rect" id="node2" href="$classAItem.html" title="Base class for all items in the game." alt="" coords="5,160,232,369"/>
+<area shape="rect" id="node3" title=" " alt="" coords="27,13,93,90"/>
+<area shape="rect" id="node4" href="$structFItemData.html" title=" " alt="" coords="117,5,237,97"/>
+<area shape="rect" id="node5" href="$structFWeaponItemData.html" title=" " alt="" coords="257,219,399,311"/>
+</map>

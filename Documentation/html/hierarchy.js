@@ -1,6 +1,10 @@
 var hierarchy =
 [
     [ "AActor", null, [
+      [ "AItem", "classAItem.html", [
+        [ "AGrenade", "classAGrenade.html", null ],
+        [ "AWeapon", "classAWeapon.html", null ]
+      ] ],
       [ "AKidRedProjectile", "classAKidRedProjectile.html", null ]
     ] ],
     [ "AAIController", null, [
@@ -43,13 +47,21 @@ var hierarchy =
     ] ],
     [ "FCharacterAnimData", "structFCharacterAnimData.html", null ],
     [ "FCharacterProfile", "structFCharacterProfile.html", null ],
+    [ "FGrenadeItemData", "structFGrenadeItemData.html", null ],
+    [ "FItemData", "structFItemData.html", null ],
     [ "FTableRowBase", null, [
-      [ "FAnimationTable", "structFAnimationTable.html", null ]
+      [ "FAnimationTable", "structFAnimationTable.html", null ],
+      [ "FCharacterProfileTable", "structFCharacterProfileTable.html", null ],
+      [ "FItemDataTable", "structFItemDataTable.html", [
+        [ "FGrenadeItemDataTable", "structFGrenadeItemDataTable.html", null ],
+        [ "FWeaponItemDataTable", "structFWeaponItemDataTable.html", null ]
+      ] ]
     ] ],
+    [ "FWeaponItemData", "structFWeaponItemData.html", null ],
     [ "IModuleInterface", null, [
       [ "FKidRedEditor", "classFKidRedEditor.html", null ],
-      [ "FKidRedUI", "classFKidRedUI.html", null ],
-      [ "FKidRedWeapons", "classFKidRedWeapons.html", null ]
+      [ "FKidRedItems", "classFKidRedItems.html", null ],
+      [ "FKidRedUI", "classFKidRedUI.html", null ]
     ] ],
     [ "SCompoundWidget", null, [
       [ "SGameStatsOverlay", "classSGameStatsOverlay.html", null ]

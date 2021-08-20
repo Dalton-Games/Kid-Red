@@ -20,7 +20,7 @@
 			"LoadingPhase": "Default"
 		},
 		{
-			"Name": "KidRedWeapons",
+			"Name": "KidRedItems",
 			"Type": "Runtime",
 			"LoadingPhase": "Default",
 			"AdditionalDependencies": [
@@ -248,6 +248,10 @@
 		{
 			"Name": "CameraShakePreviewer",
 			"Enabled": false
+		},
+		{
+			"Name": "DataRegistry",
+			"Enabled": true
 		}
 	],
 	"TargetPlatforms": [

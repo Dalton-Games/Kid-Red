@@ -1,4 +1,7 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" title=" " alt="" coords="5,5,113,32"/>
-<area shape="rect" id="node2" href="$classAKidRedAIController.html" title=" " alt="" coords="161,5,316,32"/>
+<area shape="rect" id="node1" title=" " alt="" coords="5,56,71,83"/>
+<area shape="rect" id="node2" href="$classAItem.html" title="Base class for all items in the game." alt="" coords="157,31,219,57"/>
+<area shape="rect" id="node5" href="$classAKidRedProjectile.html" title=" " alt="" coords="119,81,257,108"/>
+<area shape="rect" id="node3" href="$classAGrenade.html" title="Base class for all grenade items." alt="" coords="305,5,392,32"/>
+<area shape="rect" id="node4" href="$classAWeapon.html" title="Base class for all weapon items." alt="" coords="307,56,390,83"/>
 </map>

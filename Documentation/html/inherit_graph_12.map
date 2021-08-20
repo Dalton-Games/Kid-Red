@@ -1,4 +1,8 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" title=" " alt="" coords="5,5,128,32"/>
-<area shape="rect" id="node2" href="$structFAnimationTable.html" title=" " alt="" coords="176,5,305,32"/>
+<area shape="rect" id="node1" title=" " alt="" coords="5,56,128,83"/>
+<area shape="rect" id="node2" href="$structFAnimationTable.html" title=" " alt="" coords="195,5,325,32"/>
+<area shape="rect" id="node3" href="$structFCharacterProfileTable.html" title=" " alt="" coords="176,56,344,83"/>
+<area shape="rect" id="node4" href="$structFItemDataTable.html" title=" " alt="" coords="197,107,323,133"/>
+<area shape="rect" id="node5" href="$structFGrenadeItemDataTable.html" title=" " alt="" coords="392,81,572,108"/>
+<area shape="rect" id="node6" href="$structFWeaponItemDataTable.html" title=" " alt="" coords="393,132,571,159"/>
 </map>
