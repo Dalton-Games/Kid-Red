@@ -1,4 +1,5 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" title=" " alt="" coords="5,5,144,32"/>
-<area shape="rect" id="node2" href="$classAKidRedGameModeBase.html" title=" " alt="" coords="192,5,376,32"/>
+<area shape="rect" id="node1" title=" " alt="" coords="5,5,100,32"/>
+<area shape="rect" id="node2" href="$classAKidRedCharacter.html" title=" " alt="" coords="148,5,288,32"/>
+<area shape="rect" id="node3" href="$classAKidRedAICharacter.html" title="Base class for all computer controlled kid red characters." alt="" coords="336,5,489,32"/>
 </map>
