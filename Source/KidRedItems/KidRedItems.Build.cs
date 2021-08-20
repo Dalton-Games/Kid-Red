@@ -2,12 +2,12 @@
 
 using UnrealBuildTool;
 
-public class KidRedWeapons : ModuleRules
+public class KidRedItems : ModuleRules
 {
-	public KidRedWeapons(ReadOnlyTargetRules Target) : base(Target)
+	public KidRedItems(ReadOnlyTargetRules Target) : base(Target)
 	{
 		PCHUsage = PCHUsageMode.UseExplicitOrSharedPCHs;
-		PrivatePCHHeaderFile = "Public/KidRedWeapons.h";
+		PrivatePCHHeaderFile = "Public/KidRedItems.h";
 
 		if (Target.Configuration == UnrealTargetConfiguration.Debug ||
 		    Target.Configuration == UnrealTargetConfiguration.DebugGame ||
@@ -19,6 +19,7 @@ public class KidRedWeapons : ModuleRules
 		PublicDependencyModuleNames.Add("Core");
 		PublicDependencyModuleNames.Add("CoreUObject");
 		PublicDependencyModuleNames.Add("Engine");
+		PublicDependencyModuleNames.Add("DataRegistry");
 		PublicDependencyModuleNames.Add("HelperFunctionLib");
 	}
 }

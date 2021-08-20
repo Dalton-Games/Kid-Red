@@ -22,3 +22,12 @@ struct FCharacterProfile
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Character Profile")
 	ECharacterGender Gender = ECharacterGender::Male;
 };
+
+USTRUCT(BlueprintType)
+struct FCharacterProfileTable : public FTableRowBase
+{
+	GENERATED_BODY()
+	
+	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Character Profile Table")
+	FCharacterProfile CharacterProfile;
+};

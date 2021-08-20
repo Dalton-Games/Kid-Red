@@ -24,6 +24,6 @@ public class KidRedUI : ModuleRules
 		PublicDependencyModuleNames.Add("SlateCore");
 		PublicDependencyModuleNames.Add("UMG");
 		PublicDependencyModuleNames.Add("HelperFunctionLib");
-		PublicDependencyModuleNames.Add("KidRedWeapons");
+		PublicDependencyModuleNames.Add("KidRedItems");
 	}
 }

@@ -9,7 +9,7 @@ class USphereComponent;
 class UProjectileMovementComponent;
 
 UCLASS(config=Game)
-class KIDREDWEAPONS_API AKidRedProjectile : public AActor
+class KIDREDITEMS_API AKidRedProjectile : public AActor
 {
 	GENERATED_BODY()
 
