@@ -35,10 +35,11 @@ public:
 	AGrenade();
 	
 	UFUNCTION(BlueprintPure, DisplayName = "Get Grenade Data", Category = "Item")
-	FORCEINLINE FGrenadeItemData GetGrenadeData_Copy() const { return GrenadeItemData != nullptr ? *GrenadeItemData : FGrenadeItemData(); }
+	FORCEINLINE FGrenadeItemData GetGrenadeData_Copy() const { return GrenadeItemData; }
+	FORCEINLINE FGrenadeItemData& GetGrenadeData() { return GrenadeItemData; }
 	
 protected:
 	virtual void OnItemRegistryFound(const FDataRegistryAcquireResult& RegistryAcquireResult) override;
 
-	const FGrenadeItemData* GrenadeItemData = nullptr;
+	FGrenadeItemData GrenadeItemData;
 };

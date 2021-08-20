@@ -38,10 +38,11 @@ public:
 	AWeapon();
 	
 	UFUNCTION(BlueprintPure, DisplayName = "Get Weapon Data", Category = "Item")
-	FORCEINLINE FWeaponItemData GetWeaponData_Copy() const { return WeaponItemData != nullptr ? *WeaponItemData : FWeaponItemData(); }
+	FORCEINLINE FWeaponItemData GetWeaponData_Copy() const { return WeaponItemData; }
+	FORCEINLINE FWeaponItemData& GetWeaponData_Copy() { return WeaponItemData; }
 
 protected:
 	virtual void OnItemRegistryFound(const FDataRegistryAcquireResult& RegistryAcquireResult) override;
 
-	const FWeaponItemData* WeaponItemData = nullptr;
+	FWeaponItemData WeaponItemData;
 };

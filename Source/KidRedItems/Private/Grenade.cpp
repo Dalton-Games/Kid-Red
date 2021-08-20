@@ -13,5 +13,5 @@ void AGrenade::OnItemRegistryFound(const FDataRegistryAcquireResult& RegistryAcq
 	
 	const FGrenadeItemData& GrenadeItemDataFromTable = RegistryAcquireResult.GetItem<FGrenadeItemDataTable>()->GrenadeItemData;
 	
-	GrenadeItemData = &GrenadeItemDataFromTable;
+	GrenadeItemData = GrenadeItemDataFromTable;
 }

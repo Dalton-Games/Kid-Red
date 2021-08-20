@@ -13,5 +13,5 @@ void AWeapon::OnItemRegistryFound(const FDataRegistryAcquireResult& RegistryAcqu
 
 	const FWeaponItemData& WeaponItemDataFromTable = RegistryAcquireResult.GetItem<FWeaponItemDataTable>()->WeaponItemData;
 	
-	WeaponItemData = &WeaponItemDataFromTable;
+	WeaponItemData = WeaponItemDataFromTable;
 }

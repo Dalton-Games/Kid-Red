@@ -59,5 +59,5 @@ void AItem::OnItemRegistryFound(const FDataRegistryAcquireResult& RegistryAcquir
 {
 	const FItemData& ItemDataFromTable = RegistryAcquireResult.GetItem<FItemDataTable>()->ItemData;
 	
-	ItemData = &ItemDataFromTable;
+	ItemData = ItemDataFromTable;
 }

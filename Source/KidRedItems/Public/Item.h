@@ -39,7 +39,8 @@ public:
 	AItem();
 
 	UFUNCTION(BlueprintPure, DisplayName = "Get Item Data", Category = "Item")
-	FORCEINLINE FItemData GetItemData_Copy() const { return ItemData != nullptr ? *ItemData : FItemData(); }
+	FORCEINLINE FItemData GetItemData_Copy() const { return ItemData; }
+	FORCEINLINE FItemData& GetItemData() { return ItemData; }
 
 	FORCEINLINE USkeletalMeshComponent* GetMesh() const { return Mesh; }
 	
@@ -58,7 +59,7 @@ protected:
 	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly, Category = "Item Registry")
 	FName TableRowName = NAME_None;
 	
-	const FItemData* ItemData = nullptr;
+	FItemData ItemData;
 	
 private:
 	void ApplyItemDataFromRegistry(const FName& InRegistryType);
