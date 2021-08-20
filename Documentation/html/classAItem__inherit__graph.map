@@ -1,6 +1,6 @@
 <map id="AItem" name="AItem">
-<area shape="rect" id="node1" title="Base class for all items in the game." alt="" coords="99,131,326,340"/>
-<area shape="rect" id="node3" href="$classAGrenade.html" title="Base class for all grenade items." alt="" coords="5,388,201,495"/>
-<area shape="rect" id="node4" href="$classAWeapon.html" title="Base class for all weapon items." alt="" coords="225,388,419,495"/>
+<area shape="rect" id="node1" title="Base class for all items in the game." alt="" coords="99,131,326,355"/>
+<area shape="rect" id="node3" href="$classAGrenade.html" title="Base class for all grenade items." alt="" coords="5,403,201,524"/>
+<area shape="rect" id="node4" href="$classAWeapon.html" title="Base class for all weapon items." alt="" coords="225,403,419,524"/>
 <area shape="rect" id="node2" title=" " alt="" coords="180,5,245,83"/>
 </map>
