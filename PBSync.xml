@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    <project>
+        <enginebaseversion>5.0</enginebaseversion>
+        <uprojectname>KidRed.uproject</uprojectname>
+        <defaultgameinipath>Config/DefaultGame.ini</defaultgameinipath>
+		<userconfig>.user-sync</userconfig>
+        <ciconfig>.ci-sync</ciconfig>
+    </project>
+    <git>
+        <version>2.33.0.vfs.0.0</version>
+        <lfsversion>2.13.3</lfsversion>
+        <gcmversion>2.0.475</gcmversion>
+        <gcmversionsuffix></gcmversionsuffix>
+        <gcmsuffix>64295</gcmsuffix>
+        <expectedbranch>main</expectedbranch>
+        <url>https://github.com/Dalton-Games/Kid-Red.git</url>
+        <checksumfile>.md5</checksumfile>
+    </git>
+    <versionator>
+        <defaultbundle>editor</defaultbundle>
+        <cibundle>engine</cibundle>
+		<engineprefix>DG</engineprefix>
+        <enginetype>ue5</enginetype>
+        <uses_gcs>False</uses_gcs>
+    </versionator>
+    <log>
+        <file>pbsync_log.txt</file>
+    </log>
+    <dispatch>
+        <config>.github/dispatch.json</config>
+        <stagedir>Saved/StagedBuilds</stagedir>
+        <drm>Saved/StagedBuilds/WindowsNoEditor/KidRed/Binaries/Win64</drm>
+    </dispatch>
+    <resharper>
+        <version>2021.1.5</version>
+    </resharper>
+	<msg>
+        <git_instructions>https://gitforwindows.org/</git_instructions>
+        <support_channel>Discord</support_channel>
+    </msg>
+</config>

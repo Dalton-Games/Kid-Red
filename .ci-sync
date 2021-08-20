@@ -1,0 +1,3 @@
+[uev-user]
+download_dir = UEV_INSTALLATION_ROOT
+symbols = UEV_SYMBOLS
