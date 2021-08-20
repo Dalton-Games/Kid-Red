@@ -16,6 +16,9 @@ AKidRedHUD::AKidRedHUD()
 
 void AKidRedHUD::InitializeHUD(const bool bForce)
 {
+	if (!HUD_Class)
+		return;
+	
 	if (!bEnableHUD)
 		return;
 	
