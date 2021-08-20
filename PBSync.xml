@@ -6,6 +6,7 @@
         <defaultgameinipath>Config/DefaultGame.ini</defaultgameinipath>
 		<userconfig>.user-sync</userconfig>
         <ciconfig>.ci-sync</ciconfig>
+		<packagepdbs>False</packagepdbs>
     </project>
     <git>
         <version>2.33.0.vfs.0.0</version>
