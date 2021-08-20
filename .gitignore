@@ -291,7 +291,7 @@ fmod_editor.log
 
 # exe files
 *.exe
-!/ue4versionator.exe
+!/ueversionator.exe
 !/PBSync.exe
 !/.github/gh/gh.exe
 !/.github/gh/git-chglog.exe
