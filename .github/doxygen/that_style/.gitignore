@@ -1,7 +1,0 @@
-html
-*.hpp
-*.cpp
-*.html
-*.jpg
-*.svg
-.sass-cache
