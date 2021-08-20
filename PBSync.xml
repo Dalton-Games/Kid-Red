@@ -15,6 +15,7 @@
         <gcmsuffix>64295</gcmsuffix>
         <expectedbranch>main</expectedbranch>
         <url>https://github.com/Dalton-Games/Kid-Red.git</url>
+		<branches></branches>
         <checksumfile>.md5</checksumfile>
     </git>
     <versionator>
