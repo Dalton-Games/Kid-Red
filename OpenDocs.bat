@@ -1,5 +1,5 @@
 @echo off
-tasklist /FI "WINDOWTITLE eq Docs server" 2>NUL | find /I /N "caddy.exe">NUL
+tasklist /FI "WINDOWTITLE eq KR Docs server" 2>NUL | find /I /N "caddy.exe">NUL
 set found="%ERRORLEVEL%"
 if NOT %found%=="0" (
 	start /MIN "KR Docs server" ".github\caddy\caddy.exe" run --config .github/caddy/Caddyfile
