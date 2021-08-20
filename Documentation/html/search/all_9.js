@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['projectileclass_40',['ProjectileClass',['../classAKidRedCharacter.html#a70230330199fe3c0789593e990931c67',1,'AKidRedCharacter']]],
-  ['projectilemovement_41',['ProjectileMovement',['../classAKidRedProjectile.html#a40c32c43c5a9de576ee7129d949f4654',1,'AKidRedProjectile']]]
+  ['onfire_39',['OnFire',['../classAKidRedCharacter.html#a694738bb96da87d28742a1c869e5075d',1,'AKidRedCharacter']]],
+  ['onhit_40',['OnHit',['../classAKidRedProjectile.html#acc345d643fdc43b2094a0514757296a8',1,'AKidRedProjectile']]]
 ];
