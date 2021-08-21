@@ -1,4 +1,4 @@
-﻿#pragma once
+#pragma once
 
 #include "KidRedStructs.generated.h"
 
@@ -20,7 +20,7 @@ struct FCharacterProfile
 	float Height = 0.0f;
 	
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Character Profile")
-	ECharacterGender Gender = ECharacterGender::Male;
+	ECharacterGender Gender = ECharacterGender::Masculine;
 };
 
 USTRUCT(BlueprintType)
