@@ -1,7 +1,0 @@
-{
-	"BuildId": "16433597",
-	"Modules": 
-	{
-		"CircularDependenciesDetector": "UnrealEditor-CircularDependenciesDetector.dll"
-	}
-}
