@@ -8,4 +8,4 @@
 [submodule "Plugins/IAUS"]
 	path = Plugins/IAUS
 	url = https://github.com/ProjectBorealis/IAUS
-	branch = utility-ai-plugin2
+	branch = main
