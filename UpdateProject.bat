@@ -14,6 +14,8 @@ if NOT ["%errorlevel%"]==["1"] (
     pause
     exit %errorlevel%
 )
+git restore -qWSs HEAD PBSync.exe PBSync.xml
+CALL :CHECK_FAIL
 PBSyncTemp\PBSync.exe --config PBSyncTemp/PBSync.xml --sync all
 CALL :CHECK_FAIL
 rd PBSyncTemp /s /q
