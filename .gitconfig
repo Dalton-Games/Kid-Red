@@ -45,7 +45,7 @@
 [merge]
 	conflictstyle = diff3
 	stat = false
-	tool = p4merge_dg
+	tool = p4merge_pb
 [blame]
 	coloring = highlightRecent
 [fetch]
@@ -59,7 +59,8 @@
 [push]
 	default = current
 [pull]
-	rebase = m
+	rebase = merges
+	ff = only
 [receive]
 	autogc = false
 [rebase]
@@ -124,7 +125,7 @@
     added = green bold
     changed = cyan
     untracked = magenta reverse
-[mergetool "p4merge_dg"]
+[mergetool "p4merge_pb"]
 	cmd = .github/p4merge/p4merge.exe $BASE $LOCAL $REMOTE $MERGED
 [maintenance]
 	auto = false
