@@ -14,7 +14,7 @@
 	fscache = true
 	checkStat = minimal
 	trustctime = false
-	useBuiltinFSMonitor = false
+	useBuiltinFSMonitor = true
 [commit]
 	template = .github/git-hooks/gitmessage.txt
 [gc]
